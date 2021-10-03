@@ -2,4 +2,6 @@
   display: flex;
   padding: 2.5rem;
   gap: 2.5rem;
+  max-width: 150rem;
+  margin: 0 auto;
 }

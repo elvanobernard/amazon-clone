@@ -44,21 +44,23 @@ const DUMMY_PRODUCT_DATA = [
 function MainPages() {
   return (
     <Fragment>
-      <section className={styles["banner-section"]}>
-        <img
-          className={styles["main-banner"]}
-          src={banner}
-          alt="Essentials for Gamers"
-        />
-        <section className={styles["grid-section"]}>
-          <GridContainer>
-            <Card object={DUMMY_PRODUCT_DATA[0]} />
-            <Card object={DUMMY_PRODUCT_DATA[1]} />
-            <Card object={DUMMY_PRODUCT_DATA[2]} />
-            <Card object={DUMMY_PRODUCT_DATA[3]} />
-          </GridContainer>
+      <div class={styles["main-page-background"]}>
+        <section className={styles["banner-section"]}>
+          <img
+            className={styles["main-banner"]}
+            src={banner}
+            alt="Essentials for Gamers"
+          />
+          <section className={styles["grid-section"]}>
+            <GridContainer>
+              <Card object={DUMMY_PRODUCT_DATA[0]} />
+              <Card object={DUMMY_PRODUCT_DATA[1]} />
+              <Card object={DUMMY_PRODUCT_DATA[2]} />
+              <Card object={DUMMY_PRODUCT_DATA[3]} />
+            </GridContainer>
+          </section>
         </section>
-      </section>
+      </div>
     </Fragment>
   );
 }

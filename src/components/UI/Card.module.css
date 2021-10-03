@@ -1,11 +1,15 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 31.075rem;
+  align-items: start;
+  width: 100%;
+  /* max-width: 35rem; */
   height: 42rem;
   padding: 2rem 2rem 1.5rem 2rem;
   background-color: white;
   gap: 1rem;
+  flex-shrink: 1;
+  min-width: 0;
 }
 
 .card-title {
@@ -13,10 +17,14 @@
   line-height: 2.73rem;
 }
 
-.card-img {
+.card-img-container {
   width: 100%;
-  /* transform: scale(1.2); */
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.card-img {
+  height: 100%;
 }
 
 .card-link:link,

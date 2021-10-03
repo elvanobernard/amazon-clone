@@ -6,9 +6,13 @@ function Card(props) {
   return (
     <div className={styles.card}>
       <h2 className={styles["card-title"]}>{props.object.title}</h2>
-      <div className={styles["card-img"]}>
+      <div className={styles["card-img-container"]}>
         <Link to="/product">
-          <img src={props.object.img} alt="laptop and cable" />
+          <img
+            src={props.object.img}
+            className={styles["card-img"]}
+            alt="laptop and cable"
+          />
         </Link>
       </div>
       <Link className={styles["card-link"]} to="/product">
