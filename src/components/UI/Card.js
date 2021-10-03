@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import imagePlaceholder from "../../image-resource/card-image-laptop-cable.jpg";
-
 import styles from "./Card.module.css";
 
 function Card(props) {
