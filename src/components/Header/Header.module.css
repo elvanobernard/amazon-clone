@@ -1,0 +1,49 @@
+.nav-belt {
+  background-color: #131921;
+  height: 6rem;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.nav-belt-container {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  /* border: solid white 1px; */
+  /* justify-content: center; */
+}
+
+.nav-belt-container:hover {
+  box-shadow: 0 0 1px 1px #fff;
+}
+
+.logo {
+  height: 70%;
+  display: inline-block;
+}
+
+.header-icon {
+  color: white;
+  height: 2rem;
+  width: 2rem;
+}
+
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text {
+  color: white;
+  font-size: 1.4rem;
+}
+.header-text-lower {
+  font-weight: 700;
+}

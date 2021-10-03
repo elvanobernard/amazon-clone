@@ -1,0 +1,132 @@
+.share-social-media {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.add-to-cart-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  border: #ccc solid 1px;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 27.5rem;
+}
+
+.product-price {
+  color: #b12704;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.shipping-info {
+  color: #565959;
+}
+
+.arrival-estimation {
+  margin: 1.2rem 0;
+}
+
+.delivery-country {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.availability {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #007600;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.quantity-select {
+  font-size: 1.1rem;
+  display: inline-block;
+  width: 6rem;
+  height: 2.2rem;
+  border-radius: 5px;
+  background-color: #e3e6e6;
+  border: #d5d9d9;
+  box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.205);
+  /* width: 1rem; */
+  margin-bottom: 1.5rem;
+}
+
+.card-btn {
+  width: 23.5rem;
+  height: 2.9rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.add-cart-btn {
+  background-color: #ffd814;
+  transition: all 0.1s;
+}
+
+.add-cart-btn:hover {
+  background-color: #f7ca00;
+}
+
+.buy-now-btn {
+  background-color: #ffa41c;
+}
+
+.buy-now-btn:hover {
+  background-color: #fa8900;
+}
+
+.link-text:link,
+.link-text:visited {
+  color: #007185;
+  text-decoration: none;
+}
+
+.link-text:hover,
+.link-text:active {
+  color: #c7511f;
+}
+
+.table {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.table-first-column {
+  width: 7rem;
+}
+
+.additional-info {
+  margin-bottom: 0.8rem;
+}
+
+.break-line {
+  margin: 1rem 0 1.5rem 0;
+}
+
+.add-to-list-btn {
+  width: 23.5rem;
+  height: 2.9rem;
+  /* border: none; */
+  overflow: hidden;
+  /* padding: 1rem; */
+  border-radius: 4px;
+  border: #8d9096;
+  cursor: pointer;
+  /* background-color: linear-gradient(to bottom, #f7f8fa, #e7e9ec); */
+}
+
+.inner-button {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+}

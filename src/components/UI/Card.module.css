@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 31.075rem;
+  height: 42rem;
+  padding: 2rem 2rem 1.5rem 2rem;
+  background-color: white;
+  gap: 1rem;
+}
+
+.card-title {
+  font-size: 2.1rem;
+  line-height: 2.73rem;
+}
+
+.card-img {
+  width: 100%;
+  /* transform: scale(1.2); */
+  overflow: hidden;
+}
+
+.card-link:link,
+.card-link:visited {
+  display: inline-block;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  text-decoration: none;
+  color: #288798;
+}
+
+.card-link:hover,
+.card-link:active {
+  text-decoration: underline;
+
+  color: #cb9754;
+}

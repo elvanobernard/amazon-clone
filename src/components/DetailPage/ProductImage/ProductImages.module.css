@@ -1,0 +1,24 @@
+.img-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.img-thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.img-thumbnail {
+  border: solid #aaa 0.5px;
+}
+
+.img-thumbnail--active {
+  border: solid #ffa41c 0.5px;
+  box-shadow: 0 0 5px 0.5px #ffa41c;
+}
+
+.img-product-detail {
+  width: 39.4rem;
+  height: 39.4rem;
+}

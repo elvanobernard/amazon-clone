@@ -1,0 +1,57 @@
+.product-title {
+  font-weight: 400;
+  /* color: #0f1111; */
+  font-size: 2.4rem;
+}
+
+.product-brand:link,
+.product-brand:visited {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #007185;
+  text-decoration: none;
+}
+
+.product-brand:active,
+.product-brand:hover {
+  color: #c7511f;
+  text-decoration: underline;
+}
+
+.product-price {
+  color: #565959;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin: 1rem 0 0 0;
+}
+
+.product-price-num {
+  color: #b12704;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+.notification-box {
+  background-color: #f3f3f3;
+  padding: 1.5rem;
+  margin: 1rem auto;
+}
+
+.notification-box-header {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.notification-box-text {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.product-features {
+  margin-left: 1.8rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.product-feature {
+}

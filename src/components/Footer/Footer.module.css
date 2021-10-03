@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  background-color: #232f3e;
+  color: white;
+  margin: 0 auto;
+  justify-content: in-between;
+  padding: 4rem;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 100rem;
+  justify-content: space-between;
+  line-height: 2.5rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-header {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.footer-nav-item:link,
+.footer-nav-item:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.footer-nav-item:hover,
+.footer-nav-item:active {
+  text-decoration: underline;
+}
