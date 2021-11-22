@@ -14,7 +14,7 @@ function AddToCart() {
         </span>
         <span className={styles["shipping-info"]}>Deposit to Indonesia</span>
         <span className={styles["arrival-estimation"]}>
-          Arrives: <strong>Thursday, Oct 14</strong>
+          Arrives: <strong>Monday, November 22</strong>
         </span>
         <div>
           <IoLocationOutline />
